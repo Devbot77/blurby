@@ -14,6 +14,8 @@ Blurby::Application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
+  resources :quotes
+
   # Example resource route with options:
   #   resources :products do
   #     member do
