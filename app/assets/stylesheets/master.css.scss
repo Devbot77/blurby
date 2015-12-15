@@ -9,7 +9,7 @@
 	font-style: italic;
 	position: relative;
 	border-radius: 100%;
-	background: #f84342;
+	background: #774df7;
 	border: 1px solid #f7f7f7;
 	width: 80px;
 	height: 80px;
@@ -32,6 +32,7 @@
 
 .links {
 	padding-top: 26px;
+
 }
 
 
@@ -40,6 +41,7 @@
 	font-size: 25px;
 	border-bottom: 1px solid #dfdfdf;
 	font-family: 'lobster_twobold', sans-serif;
+
 }
 
 header {
@@ -66,7 +68,7 @@ h2 span {
 }
 
 .next-quote {
-	color: #f84342;
+	color: #774df7;
 	font-family: 'lobster_twoitalic', sans-serif;
 	font-size: 20px;
 }
@@ -90,6 +92,15 @@ h2 span {
 	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
+.btn-danger {
+	background: #774df7;
+	border: 1px solid #9271F5;
+}
+
+.btn-danger:hover {
+	background: #857FF5;
+	border: #9271F5;
+}
 
 
 @media (max-width: 750px) {
@@ -99,5 +110,5 @@ h2 span {
 }
 
 ::selection {
-	background-color: #f84342;
+	background-color: #774df7;
 }
